@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pdfview1"
+        android:background="@color/textColorEarthquakeDetails"
+        ></com.github.barteksc.pdfviewer.PDFView>
+
+
+
+
+
+
+</RelativeLayout>
+<!--<ScrollView-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".EmergencyActivity">-->
+
+<!--    >-->
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:cardCornerRadius="15dp"-->
+<!--        app:cardUseCompatPadding="true"-->
+<!--        >-->
+<!--<LinearLayout-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+
+<!--    android:orientation="vertical"-->
+<!--    >-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:text="Emergency Supplies"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="30sp"-->
+<!--        android:textColor="#FFF"-->
+<!--        android:gravity="center"-->
+<!--        android:background="#689F38"-->
+
+<!--        ></TextView>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:text="Keep enough supplies in your fragmentWeather to meet your needs for atleast three days."-->
+
+
+<!--        ></TextView>-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Assemble an emergency supplies Kit with items you may need in an evacuation."-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_margin="5dp"-->
+
+<!--        ></TextView>-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Store these supplies in sturdy easy-to carry-containers such as backpacks, duffle bags or covered trash containers."-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_margin="5dp"-->
+
+<!--        ></TextView>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:text="Include"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="30sp"-->
+<!--        android:textColor="#FFF"-->
+<!--        android:gravity="center"-->
+<!--        android:background="#689F38"-->
+
+<!--        ></TextView>-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:text="Keep enough supplies in your fragmentWeather to meet your needs for atleast three days."-->
+
+
+<!--        ></TextView>-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:text="Keep enough supplies in your fragmentWeather to meet your needs for atleast three days."-->
+
+
+<!--        ></TextView>-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:text="Keep enough supplies in your fragmentWeather to meet your needs for atleast three days."-->
+
+
+<!--        ></TextView>-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:text="Keep enough supplies in your fragmentWeather to meet your needs for atleast three days."-->
+
+
+<!--        ></TextView>-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:text="Keep enough supplies in your fragmentWeather to meet your needs for atleast three days."-->
+
+
+<!--        ></TextView>-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:text="Keep enough supplies in your fragmentWeather to meet your needs for atleast three days."-->
+
+
+<!--        ></TextView>-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:text="Keep enough supplies in your fragmentWeather to meet your needs for atleast three days."-->
+
+
+<!--        ></TextView>-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:text="Keep enough supplies in your fragmentWeather to meet your needs for atleast three days."-->
+
+
+<!--        ></TextView>-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:text="Keep enough supplies in your fragmentWeather to meet your needs for atleast three days."-->
+
+
+<!--        ></TextView>-->
+
+
+
+
+
+<!--</LinearLayout>-->
+<!--    </androidx.cardview.widget.CardView>-->
+<!--</ScrollView>-->

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.graduation.mah.weather">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name=".utils.MyApplication"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".ui.egypthistory.ShowOneDisaster"
+            android:exported="false" />
+        <activity
+            android:name=".ui.egypthistory.EGDHistory"
+            android:exported="false" />
+        <activity
+            android:name=".ui.BottomNav"
+            android:exported="false"
+            android:label="@string/title_activity_bottom_nav"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.SplashScreen"
+            android:exported="true"
+            android:label="@string/title_activity_bottom_nav"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.MoreActivity" />
+        <activity android:name=".ui.BeforeDuringActivity" />
+        <activity android:name=".ui.EmergencyActivity" />
+        <activity android:name=".ui.Helpline" />
+        <activity android:name=".ui.ResourcesActivity" />
+        <activity android:name=".ui.Earthquake.EarthquakeActivity" />
+        <activity
+            android:name=".ui.SettingsActivity"
+            android:label="@string/settings_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.graduation.mah.weather.ui.Earthquake.EarthquakeActivity" />
+        </activity>
+        <activity android:name=".ui.MercalliSensorActivity" />
+        <activity android:name=".ui.EarthquakeEmergencyStepsActivity" />
+        <activity
+            android:name=".ui.activity.HourlyActivity"
+            android:exported="true"
+            android:theme="@style/TransitionTheme" />
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".ui.activity.BaseActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAMyIZtIMeZjTu-b2P_xyyZaNBeIv-fkzU" />
+    </application>
+
+</manifest>

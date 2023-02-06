@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="overlay_dark_50">#40000000</color>
+    <color name="material_blue">#6452f0</color>
+    <color name="grey_10">#e6e6e6</color>
+    <color name="green_success">#155724</color>
+    <color name="colorPrimaryNight">#263238</color>
+    <color name="colorPrimaryDarkNight">#141d26</color>
+    <color name="scrim">#99323232</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="text">#707070</color>
+    <!-- Text color for the details of the earthquake in the list item -->
+    <color name="textColorEarthquakeDetails">#B4BAC0</color>
+
+    <!-- Text color for the primary location of the earthquake in the list item -->
+    <color name="textColorEarthquakeLocation">#2B3D4D</color>
+
+    <!-- Color for an earthquake with magnitude 0 and 2 -->
+    <color name="magnitude1">#4A7BA7</color>
+
+    <!-- Magnitude circle color for an earthquake with magnitude between 2 and 3 -->
+    <color name="magnitude2">#04B4B3</color>
+
+    <!-- Magnitude circle color for an earthquake with magnitude between 3 and 4 -->
+    <color name="magnitude3">#10CAC9</color>
+
+    <!-- Magnitude circle color for an earthquake with magnitude between 4 and 5 -->
+    <color name="magnitude4">#F5A623</color>
+
+    <!-- Magnitude circle color for an earthquake with magnitude between 5 and 6 -->
+    <color name="magnitude5">#FF7D50</color>
+
+    <!-- Magnitude circle color for an earthquake with magnitude between 6 and 7 -->
+    <color name="magnitude6">#FC6644</color>
+
+    <!-- Magnitude circle color for an earthquake with magnitude between 7 and 8 -->
+    <color name="magnitude7">#E75F40</color>
+
+    <!-- Magnitude circle color for an earthquake with magnitude between 8 and 9 -->
+    <color name="magnitude8">#E13A20</color>
+
+    <!-- Magnitude circle color for an earthquake with magnitude between 9 and 10 -->
+    <color name="magnitude9">#D93218</color>
+
+    <!-- Magnitude circle color for an earthquake with magnitude over 10 -->
+    <color name="magnitude10plus">#C03823</color>
+
+
+    <color name="hints">#CCCCCC</color>
+    <color name="colorPrimary">#1E62E8</color>
+    <color name="colorPrimaryText">#253274</color>
+    <color name="colorPrimaryText2">#868FA8</color>
+    <color name="colorPrimaryBorder">#47253274</color>
+    <color name="colorPrimaryLight">#99253274</color>
+    <color name="colorPrimaryLightMore">#26253274</color>
+    <color name="backgroundLight">#EFEFEF</color>
+
+    <color name="blue">#1B5AD6</color>
+
+    <color name="babyBlue">#9CADFF</color>
+    <color name="colorPrimaryDark">#253274</color>
+    <color name="colorAccent">#2699FB</color>
+    <color name="lightGray">#F5F7F9</color>
+    <color name="chatBox">#EEF1FF</color>
+    <color name="gray">#949495</color>
+    <color name="Black">#363636</color>
+    <color name="ob50">#999999</color>
+    <color name="msg_error">#FFFF0000</color>
+
+    <color name="wrong_answer">#EC0127</color>
+
+    <color name="darkGray">#B2B2B2</color>
+    <color name="background">#000000</color>
+    <color name="backgroundBox">#F8F9FF</color>
+    <color name="green">#AFEF85</color>
+
+    <color name="subGray">#707070</color>
+    <color name="sub">#08000000</color>
+    <color name="default_button">#DCDCDC</color>
+    <color name="primary_hint">#80253274</color>
+
+
+
+</resources>

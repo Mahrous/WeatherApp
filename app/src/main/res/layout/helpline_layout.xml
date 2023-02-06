@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    app:cardElevation="10dp"
+    app:cardCornerRadius="15dp"
+
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="@color/cardview_light_background"
+    android:clickable="false"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardMaxElevation="12dp"
+    app:cardUseCompatPadding="true"
+    app:cardPreventCornerOverlap="true"
+    android:backgroundTint="@color/cardview_light_background"
+
+    >
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+  android:gravity="center"
+    android:orientation="horizontal">
+
+
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:text="Disaster Managemebt Servicesafasffsa"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:maxLines="3"
+            android:lines="3"
+
+            android:id="@+id/dept"
+            ></TextView>
+
+
+        <TextView
+        android:layout_width="0dp"
+            android:layout_marginRight="10dp"
+        android:layout_height="80dp"
+        android:text="Helpline"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:id="@+id/help"
+            android:layout_weight="1"
+            android:gravity="center"
+
+        ></TextView>
+
+
+
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>
